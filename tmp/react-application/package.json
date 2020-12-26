@@ -2,7 +2,6 @@
   "name": "<%= package.name %>",
   "version": "<%= package.version %>",
   "author": "<%= package.author %>",
-  "license": "",
   "description": "",
   "private": true,
   "xueyan": "xueyan.json",

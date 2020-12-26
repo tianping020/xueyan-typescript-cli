@@ -2,6 +2,6 @@
 
 ## Introduction
 
-<%= package.name %> is a public package.
+<%= package.name %> is a react package.
 
 The project created by <%= package.author %>.

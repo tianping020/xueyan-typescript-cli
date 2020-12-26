@@ -7,7 +7,7 @@
   "startProxy": [
     {
       "path": "^/api",
-      "target": "https://xxx.net"
+      "target": "https://xxx.com"
     }
   ]
 }

@@ -1,9 +1,7 @@
 .git/
 doc/
 node_modules/
-public/
 src/
-types/
 .gitignore
 tsconfig.json
 xueyan.json

@@ -11,9 +11,9 @@ export type ReactApplicationProps = RootProjectProps
  */
 export interface ReactApplicationConfig extends RootProjectConfig<ReactApplicationType> {
   /** <http://expressjs.com/en/4x/api.html#app.listen> */
-  startPort: number
+  startPort?: number
   /** <http://expressjs.com/en/4x/api.html#app.listen> */
-  servePort: number
+  servePort?: number
   /** <https://webpack.docschina.org/configuration/dev-server/#devserverproxy> */
   startProxies?: ProxyConfigArrayItem[]
   /** <https://webpack.docschina.org/configuration/dev-server/#devserverproxy> */

@@ -2,7 +2,7 @@
   "name": "<%= package.name %>",
   "version": "<%= package.version %>",
   "author": "<%= package.author %>",
-  "license": "",
+  "license": "MIT",
   "description": "",
   "xueyan": "xueyan.json",
   "main": "dist/lib",

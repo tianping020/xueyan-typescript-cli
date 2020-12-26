@@ -1,13 +1,14 @@
 {
   "type": "react-application",
   "moduleAlias": {
+    "<%= package.name %>": "../src",
     "components": "src/components",
     "pages": "src/pages"
   },
   "startProxy": [
     {
       "path": "^/api",
-      "target": "https://xxx.net"
+      "target": "https://xxx.com"
     }
   ]
 }

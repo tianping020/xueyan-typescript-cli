@@ -3,19 +3,20 @@
   "include": [ "src" ],
   "exclude": [ "*.test.*" ],
   "compilerOptions": {
-    "module": "esnext",
+    "module": "commonjs",
     "target": "es5",
     "lib": [ "esnext" ],
     "jsx": "react",
     "strict": true,
+    "outDir": "dist",
     "noImplicitAny": false,
     "esModuleInterop": true,
     "moduleResolution": "node",
     "removeComments": false,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    "declaration": false,
+    "declarationMap": false,
     "experimentalDecorators": true
   }
 }

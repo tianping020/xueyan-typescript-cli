@@ -2,6 +2,6 @@
 
 ## Introduction
 
-<%= package.name %> is a private application.
+<%= package.name %> is a node application.
 
 The project created by <%= package.author %>.
