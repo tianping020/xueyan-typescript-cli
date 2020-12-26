@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": [ "src" ],
+  "exclude": [ "*.test.*" ],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": [ "dom", "esnext" ],
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "<%= package.name %>": ["../src"],
+      "components/*": ["./src/components/*"],
+      "pages/*": ["./src/pages/*"]
+    }
+  }
+}

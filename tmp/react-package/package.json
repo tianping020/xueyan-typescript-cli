@@ -1,0 +1,36 @@
+{
+  "name": "<%= package.name %>",
+  "version": "<%= package.version %>",
+  "author": "<%= package.author %>",
+  "license": "",
+  "description": "",
+  "xueyan": "xueyan.json",
+  "main": "dist/lib",
+  "module": "dist/es",
+  "types": "dist/types",
+  "files": [
+    "dist/es",
+    "dist/lib",
+    "dist/types"
+  ],
+  "scripts": {
+    "start": "yarn start-doc",
+    "build": "xueyan-typescript build",
+    "watch": "xueyan-typescript build --watch",
+    "start-doc": "xueyan-typescript start doc",
+    "build-doc": "xueyan-typescript build doc",
+    "serve-doc": "xueyan-typescript serve doc"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "react": "^16.13.1",
+    "typescript": "^4.0.3"
+  }
+}
