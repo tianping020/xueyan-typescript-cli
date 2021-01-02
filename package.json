@@ -5,7 +5,10 @@
   "license": "MIT",
   "description": "Typescript Application or Package CLI Tool",
   "xueyan": "xueyan.json",
-  "homepage": "https://github.com/tunnckoCore/homepage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xueyan-site/xueyan-typescript-cli.git"
+  },
   "bin": {
     "xueyan-typescript": "./dist/binary/index.js"
   },
