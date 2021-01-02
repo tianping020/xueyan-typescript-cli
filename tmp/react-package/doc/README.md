@@ -1,7 +1,7 @@
-# <%= package.name %>
+# <%= package.name %>-doc
 
 ## Introduction
 
-<%= package.name %> is a react application.
+<%= package.name %>-doc is a react application.
 
 The project created by <%= package.author %>.

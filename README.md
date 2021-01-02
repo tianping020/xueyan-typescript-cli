@@ -1,10 +1,15 @@
-# @xueyan/typescript-cli
+# xueyan-typescript-cli
 
 ## Introduction
 
-@xueyan/typescript-cli is a react cli application.
+xueyan-typescript-cli is a react cli application.
 
 The project created by xueyan <yang@xueyan.site>.
+
+## Install
+
+- NPM: `npm i -g xueyan-typescript-cli`  
+- YARN: `yarn global add xueyan-typescript-cli`  
 
 ## xueyan-typescript create
 

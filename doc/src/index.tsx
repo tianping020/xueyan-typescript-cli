@@ -1,5 +1,5 @@
 /**
- * @package @xueyan/typescript-cli
+ * @package xueyan-typescript-cli
  * @author xueyan <yang@xueyan.site>
  * @description doc entry
  */

@@ -1,10 +1,11 @@
 {
-  "name": "@xueyan/typescript-cli",
+  "name": "xueyan-typescript-cli",
   "version": "1.0.0",
   "author": "xueyan <yang@xueyan.site>",
   "license": "MIT",
   "description": "Typescript Application or Package CLI Tool",
   "xueyan": "xueyan.json",
+  "homepage": "https://github.com/tunnckoCore/homepage",
   "bin": {
     "xueyan-typescript": "./dist/binary/index.js"
   },
