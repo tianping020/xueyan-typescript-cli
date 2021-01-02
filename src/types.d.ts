@@ -33,6 +33,17 @@ export interface AnyObject {
 }
 
 /**
+ * Git信息格式
+ */
+export interface GitInfo {
+  user: {
+    name: string // 用户名称
+    email: string // 用户邮箱
+  }
+  [prop: string]: any
+}
+
+/**
  * 包信息格式
  */
 export interface PackageInfo {

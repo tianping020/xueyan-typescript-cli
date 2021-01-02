@@ -4,7 +4,7 @@ import setByPath from 'lodash/set'
 import { withPath, joinPath } from '../utils/path'
 import { logErrorAndExit } from '../utils/print'
 import { isPlainObject, isString } from 'lodash'
-import { PackageInfo, AnyObject } from '../types'
+import { PackageInfo, GitInfo, AnyObject } from '../types'
 
 /**
  * 深度遍历的节点信息
@@ -118,7 +118,7 @@ export function readJSONSyncByValue(value: any, relationPath: string = ''): AnyO
 /**
  * 获取git全局配置信息
  */
-export function readGitConfigSync(): AnyObject {
+export function readGitConfigSync(): GitInfo {
   const configStr = execSync(`git config --global --list`).toString()
   const config: AnyObject = {}
   configStr.split('\n').forEach(line => {
@@ -129,7 +129,10 @@ export function readGitConfigSync(): AnyObject {
       }
     }
   })
-  return config
+  if (!config.user || !config.user.name || !config.user.email) {
+    throw Error('please config git global user name and email')
+  }
+  return config as GitInfo
 }
 
 /**
